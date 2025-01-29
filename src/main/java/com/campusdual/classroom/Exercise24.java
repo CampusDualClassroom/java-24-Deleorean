@@ -19,8 +19,7 @@ public class Exercise24 {
     }
 
     public static void main(String[] args) {
-        Queue<String> newQueue = createQueue();
-        printAndEmptyQueue(newQueue);
+        printAndEmptyQueue(createQueue());
     }
 
 }
